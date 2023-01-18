@@ -60,15 +60,15 @@ body {
   background: #fff;
   border: 1px solid #999;
   float: left;
-  font-size: 24px;
+  font-size: 50px;
   font-weight: bold;
   line-height: 34px;
-  height: 34px;
+  height: 100px;
   margin-right: -1px;
   margin-top: -1px;
   padding: 0;
   text-align: center;
-  width: 34px;
+  width: 100px;
 }
 
 .board-row:after {
@@ -79,12 +79,27 @@ body {
 
 .status {
   margin-bottom: 10px;
+  font-size: 41px;
+  font-weight: bold;
 }
+
 .game {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 87vh;
 }
 
 .game-info {
-  margin-left: 20px;
+  border: 4px dashed rgb(20, 128, 35);
+  border-radius: 11px;
+  padding: 5px 30px 5px 20px;
+  margin-left: 50px;
+  font-size: 30px;
+}
+
+.game-info-btn {
+  font-size: 30px;
 }
